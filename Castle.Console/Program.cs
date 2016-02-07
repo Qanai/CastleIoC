@@ -21,6 +21,10 @@ namespace Castle.ConsoleApp
             Console.WriteLine(shopper.Charge());
             Console.WriteLine(shopper.ChargesForCurrentCard);
 
+            var shopper2 = container.Resolve<Shopper>();
+            Console.WriteLine(shopper2.Charge());
+            Console.WriteLine(shopper2.ChargesForCurrentCard);
+
             Console.Read();
         }
     }
