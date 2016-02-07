@@ -14,8 +14,7 @@ namespace Castle.ConsoleApp
         static void Main(string[] args)
         {
             var container = new WindsorContainer();
-            container.Register(Component.For<Shopper>().LifeStyle.Transient);
-            container.Register(Component.For<ICreditCard>().ImplementedBy<MasterCard>().LifeStyle.Transient);
+            container.Install(new ShoppingInstaller());
 
             var shopper = container.Resolve<Shopper>();
             Console.WriteLine(shopper.Charge());
