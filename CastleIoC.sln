@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle.Console", "Castle.Console\Castle.Console.csproj", "{3746E720-5935-4B3F-BC47-5750A375C76B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle.ConsoleApp", "Castle.Console\Castle.ConsoleApp.csproj", "{3746E720-5935-4B3F-BC47-5750A375C76B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credit", "Credit\Credit.csproj", "{59A3CBF4-B718-459A-8328-FFFD110A9091}"
 EndProject

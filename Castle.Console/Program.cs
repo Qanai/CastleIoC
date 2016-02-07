@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Castle.Console
+namespace Castle.ConsoleApp
 {
     class Program
     {
@@ -16,6 +16,12 @@ namespace Castle.Console
             var container = new WindsorContainer();
             container.Register(Component.For<Shopper>());
             container.Register(Component.For<ICreditCard>().ImplementedBy<MasterCard>());
+
+            var shopper = container.Resolve<Shopper>();
+            Console.WriteLine(shopper.Charge());
+            Console.WriteLine(shopper.ChargesForCurrentCard);
+
+            Console.Read();
         }
     }
 }

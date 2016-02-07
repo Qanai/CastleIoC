@@ -7,7 +7,7 @@
     <ProjectGuid>{3746E720-5935-4B3F-BC47-5750A375C76B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Castle.Console</RootNamespace>
+    <RootNamespace>Castle.ConsoleApp</RootNamespace>
     <AssemblyName>Castle.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
