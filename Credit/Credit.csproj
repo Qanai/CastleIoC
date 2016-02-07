@@ -42,6 +42,7 @@
     <Compile Include="ICreditCard.cs" />
     <Compile Include="MasterCard.cs" />
     <Compile Include="Shopper.cs" />
+    <Compile Include="ShopperVer1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Visa.cs" />
   </ItemGroup>

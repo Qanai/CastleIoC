@@ -8,22 +8,14 @@ namespace Credit
 {
     public class Shopper
     {
-        private readonly ICreditCard creditCard;
+        public ICreditCard CreditCard { get; set; }
 
-        public int ChargesForCurrentCard
-        {
-            get { return creditCard.ChargeCount; }
-
-        }
-
-        public Shopper(ICreditCard creditCard)
-        {
-            this.creditCard = creditCard;
-        }
+        public int ChargesForCurrentCard { get { return CreditCard.ChargeCount; } }
 
         public string Charge()
         {
-            return creditCard.Charge();
+            return CreditCard.Charge();
         }
+
     }
 }
